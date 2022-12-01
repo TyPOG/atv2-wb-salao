@@ -1,0 +1,27 @@
+form{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+}
+
+.field input, select{
+    width: 300px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.field input:focus, select:focus{
+    border-bottom: 1px solid white;
+}
+
+.submit{
+    margin-top: 25px;
+}
